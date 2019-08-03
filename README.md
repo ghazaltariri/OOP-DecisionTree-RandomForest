@@ -13,8 +13,8 @@ In Bagging trees, a very strongly predictive feature will often show up at the t
 In RF, the predictive feature will only be available a portion of the time, allowing moderately strong predictors a chance
 
 Suggested subset sizes, for p features a hyper-parameter that we tune:
-• Classification: d = √p
-• Regression: d = p/3
+* Classification: d = √p
+* Regression: d = p/3
 
 min_sample_leaf:
-•start with None and try others
+* start with None and try others
